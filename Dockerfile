@@ -1,4 +1,4 @@
-ARG NEXTCLOUD_BASE_IMAGE=nextcloud:19.0-apache
+ARG NEXTCLOUD_BASE_IMAGE=nextcloud:19.0.6-apache
 FROM ${NEXTCLOUD_BASE_IMAGE}
 
 COPY --chown=www-data:www-data ./gss_config.sh /
